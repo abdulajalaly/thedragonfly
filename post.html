@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blog - My Personal Blog</title>
+  <title>Blog Post Title - My Personal Blog</title>
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
@@ -20,10 +20,10 @@
       <li class="nav-item">
         <a class="nav-link" href="index.html">Home</a>
       </li>
-      <li class="nav-item active">
+      <li class="nav-item">
         <a class="nav-link" href="blog.html">Blog</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item active">
         <a class="nav-link" href="post.html">Post</a>
       </li>
       <li class="nav-item">
@@ -33,41 +33,34 @@
   </div>
 </nav>
 
-<!-- Blog Posts Section -->
+<!-- Blog Post Content -->
 <div class="container mt-4">
   <div class="row">
-    <!-- Blog Post 1 -->
-    <div class="col-md-4">
-      <div class="card mb-4">
-        <img src="https://picsum.photos/200/300" class="card-img-top" alt="Post Image">
+    <div class="col-lg-8 mx-auto">
+      <h1 class="mt-4">Blog Post Title</h1>
+      <p class="lead">by <a href="about.html">Author Name</a></p>
+      <hr>
+      <p>Posted on January 1, 2024 at 12:00 PM</p>
+      <hr>
+      <img class="img-fluid rounded" src="https://picsum.photos/200/300" alt="Post Image">
+      <hr>
+      <p class="lead">This is the introduction of your blog post...</p>
+      <p>Here is the main content of your blog post. You can write paragraphs, include images, videos, and style it as you wish using HTML and Bootstrap classes.</p>
+      <!-- You can add more content here -->
+      <hr>
+      <!-- Comments Section -->
+      <div class="card my-4">
+        <h5 class="card-header">Leave a Comment:</h5>
         <div class="card-body">
-          <h5 class="card-title">Blog Post Title 1</h5>
-          <p class="card-text">This is a brief summary of the first blog post. It should entice readers to click through and read the full article.</p>
-          <a href="post.html" class="btn btn-primary">Read More</a>
+          <form>
+            <div class="form-group">
+              <textarea class="form-control" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
         </div>
       </div>
     </div>
-    <div class="col-md-4">
-      <div class="card mb-4">
-        <img src="https://picsum.photos/200/300" class="card-img-top" alt="Post Image">
-        <div class="card-body">
-          <h5 class="card-title">Blog Post Title 1</h5>
-          <p class="card-text">This is a brief summary of the first blog post. It should entice readers to click through and read the full article.</p>
-          <a href="post.html" class="btn btn-primary">Read More</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="card mb-4">
-        <img src="https://picsum.photos/200/300" class="card-img-top" alt="Post Image">
-        <div class="card-body">
-          <h5 class="card-title">Blog Post Title 1</h5>
-          <p class="card-text">This is a brief summary of the first blog post. It should entice readers to click through and read the full article.</p>
-          <a href="post.html" class="btn btn-primary">Read More</a>
-        </div>
-      </div>
-    </div>
-    <!-- Repeat for other posts -->
   </div>
 </div>
 
